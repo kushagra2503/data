@@ -26,3 +26,10 @@ df = pd.DataFrame({
 
 st.write(df)
 
+uploaded_file = st.file_uploader("Upload a file:")
+
+if uploaded_file:
+    st.write(f"File uploaded: {uploaded_file.name}")
+else:
+    st.write("No file uploaded.")
+
