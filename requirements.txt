@@ -3,3 +3,7 @@ streamlit
 numpy
 pandas
 matplotlib
+seaborn
+flask
+scikit-learn
+memory-profiler
