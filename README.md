@@ -1,1 +1,1 @@
-Basic AI/Ml techniques
+Basic AI/ML techniques
