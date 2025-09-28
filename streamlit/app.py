@@ -12,10 +12,10 @@ df = pd.DataFrame({
     'second column': [10, 20, 30, 40]
 })
 
-st.write("DataFrame: ", df)
+st.write("DataFrame: ", df) # Display the dataframe
 
 chart_data = pd.DataFrame(
-    np.random.randn(20, 3),
-    columns=['a', 'b', 'c'])
+    np.random.randn(20, 3), # Generate random data
+    columns=['a', 'b', 'c']) # Set the columns names
 
-st.line_chart( chart_data)
+st.line_chart( chart_data) # Display a line chart

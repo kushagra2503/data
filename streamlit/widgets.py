@@ -10,7 +10,7 @@ if name:
 else:
     st.write("Please enter your name.")
 
-age = st.slider("Enter your age:", min_value=0, max_value=100, value=25)
+age = st.slider("Enter your age:", min_value=0, max_value=100, value=25) ## Default value is 25
 
 st.write(f"You are {age} years old.")
 
@@ -26,7 +26,7 @@ df = pd.DataFrame({
 
 st.write(df)
 
-uploaded_file = st.file_uploader("Upload a file:")
+uploaded_file = st.file_uploader("Upload a file:")## Used to upload a file from local machine
 
 if uploaded_file:
     st.write(f"File uploaded: {uploaded_file.name}")
