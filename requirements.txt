@@ -7,3 +7,4 @@ seaborn
 flask
 scikit-learn
 memory-profiler
+nltk 
